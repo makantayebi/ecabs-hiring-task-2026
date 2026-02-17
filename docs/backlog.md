@@ -2,7 +2,7 @@
 
 - [x] Initial analysis
 - [x] Initiate maven build.
-- [ ] Write Setup and running guide
+- [x] Write Setup and running guide
 - [x] Write data classes
 - [/] the four reqs:
   - [x] 1
