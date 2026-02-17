@@ -3,13 +3,18 @@
 - [x] Initial analysis
 - [x] Initiate maven build.
 - [ ] Write Setup and running guide
-- [ ] Write data classes
+- [x] Write data classes
+- [/] the four reqs:
+  - [x] 1
+  - [x] 2
+  - [x] 3
+  - [ ] 4
 - [ ] Write tests for each end point as following:
 
-  1. Register driver availability.
-  2. Request a ride.
-  3. Complete the ride.
-  4. Get list of currently available drivers.
+  1. [ ] Register driver availability.
+  2. [ ] Request a ride.
+  3. [ ] Complete the ride.
+  4. [ ] Get list of currently available drivers.
 
 - [ ] Nice-to-have: Logging, exception handling.
 - [ ] Nice-to-have: Set up redis AOF / Hybrid for data consistency

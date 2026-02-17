@@ -31,3 +31,5 @@ After searches, i see my options are
 
 setting up maven repo: `mvn archetype:generate -DgroupId=mt.com.ecabs.hr.ridematchingservice -DartifactId=rid
 e-matching-service -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
+
+I have to assume for simplicity that authentication is excluded from the excersize.
