@@ -11,8 +11,8 @@
   - [ ] 4
 - [ ] Write tests for each end point as following:
 
-  1. [ ] Register driver availability.
-  2. [ ] Request a ride.
+  1. [x] Register driver availability.
+  2. [x] Request a ride.
   3. [ ] Complete the ride.
   4. [ ] Get list of currently available drivers.
 
