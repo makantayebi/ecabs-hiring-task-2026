@@ -26,3 +26,8 @@ After searches, i see my options are
 1. synced blocks of HashMap for Driver and Rides. For any operations with lookups this is highly more efficient than Lists. I expect more lookups than otherwise.
 2. ConcurrentHashMap is also provided by java. it improves granularity of blocking the data. so it's more efficient. But in any case I have to sync the methods that modify this because THERE ARE LOOKUPS, and SEARCHES in the driver list. Searching in the map then marking a single driver as available, or updating the location etc. So the whole function should be sync. This means that if we're careful, the HashMap would also be enough. But I'd like to demonstrate my ability to understand the situation, if noone reads this document.
 3. I can implement thread-safe KTrees for spatial searches of complexity O(log n), but this is not appropriate for the time given for the task, I'll throw it in the backlog.
+
+- I prefer writing getters and setters manually, but in this timespan i'll use lombok.
+
+setting up maven repo: `mvn archetype:generate -DgroupId=mt.com.ecabs.hr.ridematchingservice -DartifactId=rid
+e-matching-service -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false`
